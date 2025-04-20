@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.main-container{
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: normal;
+    line-height: 1.5;
+    width: 1265px;
+    height: auto;
+    color: #002f34;
+}
+
+/* header upper part  */
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 6;
+    border-bottom: 0 solid #f2f4f5;
+    font-size: 1.4rem;
+    letter-spacing: normal;
+    line-height: 1.5;
+}
+
+
+.header-upper-part{
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    margin-top: 16px;
+    margin-left: 120.500px;
+    margin-right: 120.500px;
+    align-items: center;
+}
+
+.header-upper-part svg{
+    margin-right: 40px;
+    width: 56px;
+    height: 32px;
+}
+
+.motors{
+    width: 99.22px;
+    height: 40px;
+    margin-right: 40px;
+}
+
+.motors-image{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    padding-top: 5px;
+}
+
+
+.motors-image p{
+    font-weight: 700;
+    color: #002f34;
+    font-size: 16px;
+}
+
+.motors-image p:hover{
+    color: #3a77ff;
+}
+
+.Property{
+    width: 99.22px;
+    height: 40px;
+    margin-right: 40px;
+}
+
+.Property-svg{
+    display: inline-flex ;
+    gap: 10px;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.Property-svg p{
+    font-weight: 700;
+    color: #002f34;
+    font-size: 16px;
+    margin-left: -45px;
+}
+
+.Property-svg p:hover{
+    color: #3a77ff;
+}
+
+/* header lower art */
+
+.header-lower-part{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    margin: 0px 120.500px 0px 120.500px ;
+}
+
+.region-flex{
+    display: flex;
+}
+
+.region-selection input{
+    width: 216px;
+    height: 46px;
+    padding: 12px;
+    border: 0.5px solid;
+}
+
+.region-selection input:hover{
+    border-color: #23e5db;
+}
+
+.location{
+    border: 1px solid;
+    display: inline-block;
+    height: 48px;
+    padding: 10px;
+}
+
