@@ -6,7 +6,6 @@
 
 
 .main-container{
-    display: flex;
     font-family: Roboto, Helvetica, sans-serif;
     font-size: 1.4rem;
     letter-spacing: normal;
@@ -288,3 +287,289 @@ header{
 
 /* navigation bar  */
 
+.list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.5px solid #d8dfe0;
+}
+
+.list ul {
+    width: 90%;
+    height: 45px;
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 22px;
+}
+
+.list ul lhead{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 55px;
+}
+
+.list ul i{
+    margin-left: 8px;
+    font-size: 16px;
+}
+
+.list ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #002f34;
+}
+
+.list ul li a:hover{
+    color: #00A49F;
+}
+
+/* banner  */
+
+.banner {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img {
+    width: 90%;
+    height: 90%;
+}
+
+.banner-for-mobile {
+    display: none;
+}
+
+/* categories  */
+.categories {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.heading {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.heading h3 {
+    font-size: 22px;
+    font-weight: 550;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 34px;
+    padding-left: 80px;
+    padding-right: 50px;
+}
+
+.box {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.box:hover{
+    transform: scale(1.1);
+}
+
+
+.box p {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.box img {
+    width: 80%;
+    height: 45%;
+}
+
+
+/* categories items  */
+
+.mobiles {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-mobiles {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cards {
+    width: 24%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.cards:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-in;
+}
+
+.cards-img {
+    position: relative;
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.cards-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.cards-inner-content {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.price {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.price p {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.price i {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.des {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.des p {
+    font-size: 15px;
+}
+
+.adress {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.adress p {
+    font-size: 15px;
+    opacity: 0.8;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.time {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.time p {
+    font-size: 12px;
+    opacity: 0.9;
+    font-weight: 400;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.heading p {
+    font-size: 17px;
+    font-weight: 700;
+    color: #3A77FF;
+    cursor: pointer;
+}
+
+.heading p:hover{
+    color: #6192fd;
+}
+
+.heading i {
+    margin-left: 10px;
+    align-items: center;
+}
+
+.color{
+    color: red;
+}
