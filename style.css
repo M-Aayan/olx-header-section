@@ -10,7 +10,7 @@
     font-size: 1.4rem;
     letter-spacing: normal;
     line-height: 1.5;
-    width: 1265px;
+    width: 100%;
     height: auto;
     color: #002f34;
 }
@@ -20,7 +20,6 @@
 header{
     position: sticky;
     top: 0;
-    z-index: 6;
     border-bottom: 0 solid #f2f4f5;
     font-size: 1.4rem;
     letter-spacing: normal;
@@ -347,10 +346,6 @@ header{
     height: 90%;
 }
 
-.banner-for-mobile {
-    display: none;
-}
-
 /* categories  */
 .categories {
     width: 100%;
@@ -572,4 +567,88 @@ header{
 
 .color{
     color: red;
+}
+
+/* footer banner  */
+
+.footer-banner {
+    margin-top: 70px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-banner img {
+    width: 90%;
+    height: 80%;
+}
+
+
+.footer-section{
+    background-color: #ebeeef;
+    border-top: 1px solid rgba(0, 47, 52, .2);
+    padding: 16px 0 90px;
+}
+
+.footer-lists{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120.500px;
+    margin-right: 120.500px;
+}
+
+.footer-list-1{
+    flex: 1;
+    width: 189px;
+    height: 113px;
+}
+
+.heading{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.footer-list-1 ul li{
+    display: grid;
+    grid-auto-flow: column;
+    list-style: none;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #5b7b7d;
+}
+
+.footer-list-1 ul li:hover{
+    color: #002f34;
+}
+
+/* footer bottom  */
+.footer-bottom{
+    margin-top: 20px;
+    height: 50px;
+    background-color: #002f34;
+    color: #fff;
+    padding: 16px 0;
+    text-align: right;
+}
+
+.footer-bottom-space{
+    height: 19px;
+    color: white;
+    text-align: right;
+    margin: 0px 120.500px;
+}
+
+.footer-bottom-content{
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-bottom-content span{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 8px;
 }
