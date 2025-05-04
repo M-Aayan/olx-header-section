@@ -10,333 +10,287 @@
     font-size: 1.4rem;
     letter-spacing: normal;
     line-height: 1.5;
-    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
     height: auto;
     color: #002f34;
 }
 
-/* header upper part  */
+/* header  */
 
 header{
-    border-bottom: 1px solid gainsboro;
+    background-color: #fff;
     position: sticky;
-    top: 0px;
-    z-index: 99;
-    background-color: white;
+    top: 0;
+    align-items: center;
 }
 
 
 
-.header {
-    padding-top: 8px;
-    margin-left: 70px;
-    margin-right: 100px;
-    padding-bottom: 5px;
-}
-
-.navbar-nav{
+.header-upperpart{
     display: flex;
-    gap: 15px;
-    padding: 10px 0;
+    align-items: center;
+    gap: 30px;
+    margin: 16px 120px 6px 120px;
 }
 
-
-
-
-.menu-svg{
+.Menu-bar{
     display: none;
 }
 
-.motor-a{
-    display: flex;
-    gap: 70px;
-
+.logo{
+    height: 32px;
+    width: 56px;
+    fill: #002f34;
+    margin-right: 20px;
 }
 
 .motor-svg{
-    height:40px;
-    width: 40px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.motor-svg-hover:hover{
+    color:#3a77ff;
+}
+
+.car-svg{
+    border: 1px solid transparent;
     border-radius: 50%;
-    background: linear-gradient(180deg, rgba(0, 47, 52, .16), rgba(0, 47, 52, .01) 81.77%, rgba(0, 47, 52, .01));
+    padding: 5px;
+    background-color: rgba(236, 236, 236, 0.842);
 }
 
-.svg {
+
+.motor-txt{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+.property-svg{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.property-svg-hover:hover{
+    color:#3a77ff;
+}
+
+.property{
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: rgba(236, 236, 236, 0.842);
+}
+
+
+.property-txt{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+
+.header-lower-part{
     display: flex;
     align-items: center;
-    gap: 25px;
+    padding-bottom: 16px;
+    padding-top: 10px;
+    margin: 0 120px;
 }
 
-.olx-svg{
-    fill: #002f34;
-}
-
-
-.motor-a:hover .motor-svg{
-    background-color:#EBF1FF;
-}
-
-.motor-a:hover  .svg-hover{
-    fill: #3A7BFF;
-} 
-
-   /* Search-bar-Section */
-
-.search-bar-container{
+.location-input-bar{
     display: flex;
-    flex-direction: row;
-    gap: 20px;
-    height: 55px;
-    width: 1060px;
-    /* border: 1px solid black; */
-    margin-left: 60px;
     align-items: center;
-    margin-top: 0px;
-    margin-bottom: 15px;
-}
-
-.ser-item-1{
-    border: 1px solid gainsboro;
-    height: 50px;
-    width: 310px;
-    position: relative;
-    margin-left: 20px;
+    border: 1px solid #d8dfe0;
     border-radius: 4px;
 }
 
-.ser-item-1:focus-within{
-    outline: 1px solid rgb(6, 224, 217);
+.location{
+    height: 46px;
+    width: 24px;
+    margin-left: 8px;
 }
 
-.location-bar{
-    display: flex;
-    align-items: center;
-    height: 50px;
-    padding: 10px;
-}
-
-#location-inp{
-    width: 250px;
-    height: 30px;
+.location-input{
+    width: 216px;
+    height: 46px;
     border: none;
     outline: none;
+    color: #002f34;
+    padding-left: 12px;
+    font-size: 16px;
 }
 
-.dropdown-svg{
-    position: absolute;
-    right: 9px;
-    top: 8.4px;
-    cursor: pointer;
+
+.location-dropdown{
+    height: 46px;
+    width: 24px;
+    margin-right: 16px;
 }
 
-.location-bar-icon{
-    margin-bottom: -7px;
-}
-
-.ser-item-2{
-    border: 1px solid gainsboro;
-    height: 50px;
-    width: 480px;
+.search-input-bar{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    border: 1px solid #d8dfe0;
     border-radius: 4px;
-}
-.ser-item-2:focus-within{
-    outline: 1px solid rgb(6, 224, 217);
+    margin-left: 20px;
 }
 
-.search-inp{
-    width: 300px;
+.search-bar{
+    width: 450px;
+    height: 46px;
+    padding-left: 12px;
+    color: #002f34;
+    font-size: 16px;
     border: none;
-    outline: none;
-    margin-left: 20px;
+}
+
+.search-btn{
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 4px 4px 0;
+    border: none;
+    background-color: #002f34;
 }
 
 .search-svg{
-    border: 1px solid black;
-    height: 100%;
-    width: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #002F34;
-    cursor: pointer;
+    fill: #fff;
 }
 
-.ser-item-3{
-    height: 50px;
-    width: 70px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.login-word{
+.login-btn{
+    font-weight: 700;
     font-size: 16px;
-    font-weight: 650;
-    cursor: pointer;
-
+    border-bottom: 2px solid;
+    margin-left: 32px;
 }
 
-.login-word:hover + .login-underline{
-    opacity: 0;
+.login-btn:hover{
+    border: none;
 }
 
-.login-underline{
-    border-bottom: 2px solid black;
-    width: 40px;
-    margin-top: 0px;
-    padding-top: 0px;
+.Sell-button{
+    margin-left: 20px;
 }
 
-.sell-svg{
+.sell-btn{
+    display: flex;
     position: relative;
+    background: none;
+    border: none;
+    color: inherit;
 }
 
-.sell-span{
+.btn-border{
+    height: 48px;
+    width: 104px;
+}
+
+.sell-btn-plus-icon{
     position: absolute;
+    left: 25px;
     top: 15px;
-    left: 45px;
+    align-items: center;
+}
+
+.plus-icon{
+    margin-right: 4px;
+    align-items: center;
+}
+
+.sell-txt{
     font-weight: 700;
     font-size: 14px;
-    cursor: pointer;
-    align-items: center;
 }
 
-.sell-plus-icon{
-    position: absolute;
-    top: 8px;
-    left: 25px;
-}
+/* header media query  */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width:600px){
 
-
-    nav{
-        width: 100%;
-    }
-
-    .main-container{
-        width: 200%;
-    }
-
-    body{
-        width: 100%;
-    }
-
-    header{
-        border-bottom: 1px solid gainsboro;
-        background-color: white;
-        width: 100%;
+    .header-upperpart{
         display: flex;
-    }
-    .header {
-        padding-top: 8px;
-        margin-left:0px;
-        margin-right: 0px;
-        padding-bottom: 5px;
-        width: 100%;
-    }
-
-    .search-bar-container{
-        height: auto;
-        width: 100%;
-        /* border: 1px solid black; */
-        display: block;
-        margin-left: 2px;
         align-items: center;
-        margin-top: 0px;
-        margin-bottom: 15px;
+        gap: 15px;
+        width:100%;
+        margin-right: 20px;
+        border-bottom: none;
+        padding-left: 14px;
+        padding-top: 6.3px;
+        margin: 0;
     }
 
-    .ser-item-1{
-        position: sticky;
-        top: 0px;
-        border: 1px solid black;
-    }
-
-    .menu-svg{
-        display: block;
+    .Menu-bar{
         height: 24px;
         width: 24px;
-        margin-right: 25px;
-    }
-
-    .olx-svg{
-        height: 36px;
-        width: 36px;
-    }
-
-    .container-fluid{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    select{
-        background-color: white;
-    }
-
-    .nav-link{
-        padding: 0px;
-    }
-
-    .navbar{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-
-
-    .ser-item-1{
-        width: 330px;
-    }
-
-    .dropdown-svg{
-        display: none;
-    }
-
-    .ser-item-2{
-        display: none;
-    }
-
-    .ser-item-3{
-       display: none;
-    }
-
-    .sell-svg{
-        display: none;
-    }
-
-    .location-bar{
-        display: flex;
-        align-items: center;
-        gap: px;
-        height: 50px;
-        padding: 10px;
-    }
-
-    .menu-div{
-        display: none;
-    }
-
-    .static-img{
-        display: none;
-    }
-
-    .animated-img{
-        display: none;
-
+        fill: #002f34;
+        margin-right: 16px;
     }
     
-
+    .logo{
+        height: 20px;
+        width: 35px;
+        fill: #002f34;
+        margin-right: 20px;
+    }
+    
+    .motor-svg{
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        margin-right: 20px;
+    }
+    
+    .motor-svg-hover:hover{
+        color:#3a77ff;
+    }
+    
+    .car-svg{
+        border: 1px solid transparent;
+        border-radius: 50%;
+        padding: 5px;
+        background-color: rgba(236, 236, 236, 0.842);
+    }
+    
+    
+    .motor-txt{
+        font-weight: 700;
+        font-size: 16px;
+    }
+    
+    
+    .property-svg{
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        margin-right: 20px;
+    }
+    
+    .property-svg-hover:hover{
+        color:#3a77ff;
+    }
+    
+    .property{
+        border: 1px solid transparent;
+        border-radius: 50%;
+        padding: 5px;
+        background-color: rgba(236, 236, 236, 0.842);
+    }
+    
+    
+    .property-txt{
+        font-weight: 700;
+        font-size: 16px;
+    }
+    
 }
-
-
-
-
 
 
 
