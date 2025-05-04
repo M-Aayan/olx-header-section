@@ -23,6 +23,7 @@ header{
     position: sticky;
     top: 0;
     align-items: center;
+    z-index: 6;
 }
 
 
@@ -294,8 +295,8 @@ header{
 
 
 
-
- /* navigation bar 
+/* 
+navigation bar 
 
 .list {
     width: 100%;
@@ -662,4 +663,4 @@ header{
     font-size: 14px;
     font-weight: 700;
     margin-right: 8px;
-}  */
+}   */
